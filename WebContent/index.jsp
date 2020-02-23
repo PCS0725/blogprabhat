@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Homepage</title>
+    <title>Welcome</title>
     <link rel="stylesheet" type="text/css" href="<%=Config.style %>" />
   </head>
   <body>
