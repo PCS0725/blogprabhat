@@ -1,6 +1,6 @@
 <%@page import="main.Config"%>
-<%@page import="main.Database"%>
-<%@page import="main.Article"%>
+<%@page import="main.datalayer.Database"%>
+<%@page import="main.model.Article"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -11,6 +11,7 @@
   </head>
   <body>
  	 <%	
+ 	 	//Do not allow anyone until there is no login
  	 	try{
 			if(session.getAttribute("login").equals("no"))
 				response.sendRedirect("../loginForm.jsp");

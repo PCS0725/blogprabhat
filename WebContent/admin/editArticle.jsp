@@ -1,5 +1,5 @@
-<%@page import="main.Database"%>
-<%@page import="main.Article"%>
+<%@page import="main.datalayer.Database"%>
+<%@page import="main.model.Article"%>
 <%@page import="java.text.SimpleDateFormat"%>
 <%@page import="java.util.Date"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"

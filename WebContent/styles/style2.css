@@ -1,9 +1,18 @@
 @charset "ISO-8859-1";
-body {
+#body1{
+	
 	  background-image: url('../images/vietnam.jpg');
 	  background-repeat: no-repeat;
 	  background-attachment: fixed;  
 	  background-size: cover;
+}
+body{
+	 color: #777777;
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.625em;
+	position: relative;
 }
 
 #container {
@@ -39,14 +48,14 @@ body {
 
 /* Headings */
 
-h1 {
-  color: #eb6841;
-  margin-bottom: 30px;
-  line-height: 1.2em;
-}
-
-h2, h2 a {
-  color: #edc951;
+h1, h2, h3,
+h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+  color: #222222;
+  line-height: 1.2em !important;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 600;
 }
 
 h2 a {

@@ -1,8 +1,9 @@
-package main;
+package main.model;
 
 import java.util.Date;
 /*
  Model class for representing an article object
+ A simple POJO
  */
 public class Article {
 	private int id;   //a unique id for each article. We'll never set it, it will be set by the database

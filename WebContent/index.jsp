@@ -1,14 +1,14 @@
 <%@page import="main.Config"%>
 <%@page import="java.util.Date"%>
 <%@page import="java.util.ArrayList"%>
-<%@page import="main.Database"%>
-<%@page import = "main.Article" %>
+<%@page import="main.datalayer.Database"%>
+<%@page import = "main.model.Article" %>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Welcome</title>
+    <title>Homepage</title>
     <link rel="stylesheet" type="text/css" href="<%=Config.style %>" />
   </head>
   <body>
