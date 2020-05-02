@@ -3,6 +3,18 @@ A personal blog website and content management system  using using Java JEE.
 
 The blogging system allows users to view the articles and allows the admin to create/edit/delete articles.
 
+##### Home Page
+![Article listing page](images/home1.png)
+
+##### Admin Portal
+![Admin Portal](images/adminhome.png)
+
+##### Article Page
+![Article page](images/article.png)
+
+##### Article Page
+![Add Article page](images/addarticle.png)
+
 ## Feature List
 
 #### For General users
