@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Homepage</title>
+    <title>Welcome Page</title>
     <link rel="stylesheet" type="text/css" href="<%=Config.style %>" />
   </head>
   <body>
@@ -40,7 +40,7 @@
 	     </ul>
 		
       	<p><a href="archive.jsp">Article Archive</a></p>
- 		<div id="footer">
+ 		<div id="footer" style = "text-align : center">
      	  <%=Config.footer %><a href="loginForm.jsp">Site Admin</a>
          </div>
 

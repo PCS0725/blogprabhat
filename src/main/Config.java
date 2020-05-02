@@ -15,6 +15,6 @@ public class Config {
 	public static int numRows = 10;   //number of articles to fetch in a single query.
 	public static String imageSrc = "images/logo2.jpg";
 	public static String imageSrcAdmin= "../images/logo2.jpg";
-	public static String footer = "Designed and Coded by <b>Prabhat</b>&nbsp&nbsp";
+	public static String footer = "Designed and Coded by <b>Prabhat</b>&nbsp&nbsp<br> The UI is not cool and I advise you to add your own";
 
 }
